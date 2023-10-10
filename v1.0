@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barath Kumar - Cloud Engineer</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background color and default font */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Main content container */
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+        }
+
+        /* Section styles */
+        section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        /* Responsive Web Design with Media Queries */
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 769px) {
+            body {
+                font-size: 18px;
+            }
+        }
+
+        /* Additional styles can be added as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <img src="man-with-phone.jpg" alt="Header Image">
+        <h1>Barath Kumar</h1>
+        <p>Cloud Engineer</p>
+    </header>
+
+    <div class="content-container">
+        <section id="career-objective">
+            <h2>Career Objective</h2>
+            <p>To join an organization as a Cloud Engineer with the goal of utilizing my knowledge of DevOps principles to deploy applications quickly and securely on the cloud platform.</p>
+        </section>
+
+        <section id="professional-experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Cloud Support Consultant Internship</h3>
+                <p>06/2023 – 08/2023</p>
+                <p>Bengaluru</p>
+                <ul>
+                    <li>Incident Management</li>
+                    <li>Performance Optimization</li>
+                    <li>Customer Relationship Management</li>
+                    <li>Security and Compliance</li>
+                    <li>Automation and Scripting</li>
+                    <li>Documentation and Knowledge Sharing</li>
+                    <li>Continuous Learning and Training</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><b>Amazon Web Services (AWS):</b> EC2, S3, VPC, IAM, SNS, SQS, Route 53, CloudWatch, ELB, IAM, Lambda</li>
+                <li><b>Infrastructure-as-Code (IaC):</b> Terraform</li>
+                <li><b>Monitoring and Logging:</b> CloudWatch, Prometheus, Grafana</li>
+                <li><b>Problem Solving and Troubleshooting:</b> Analytical Thinking, Debugging, Root Cause Analysis</li>
+                <li><b> Ticketing Tool:<b> Jira </li>
+                <!-- Add more skills here -->
+            </ul>
+        </section>
+
+        <section id="certificates">
+            <h2>Certificates :-</h2>
+            <ul>
+                <li>AWS Cloud Practitioner <p><a href="https://www.credly.com/badges/9c0ec3bb-3a8a-4847-b01f-6fda9bf0383a/public_url">Click Here</a></p> </li>
+                <li>AWS Certified SysOps Administrator – Associate <p><a href="https://www.credly.com/badges/432a9c40-547b-41c5-b2c0-08f2c478f2e8/public_url">Click Here </a></p></li>
+                <!-- Add more certificates here -->
+            </ul>
+        </section>
+
+        <section id="project">
+<h2>Project :-</h2>
+<h3>Deployed a Static Website on AWS S3</h3>
+<p>Description: Developed and deployed a basic static website on AWS S3, utilizing the cloud infrastructure for reliable and cost-effective web hosting.</p>
+<p>This project involved setting up the necessary resources, configuring DNS, and ensuring the website's accessibility and scalability.</p>
+<p>Key Contributions:</p>
+<ul>
+    <li>• Created an AWS S3 bucket to store the website's HTML, CSS, JavaScript, and other static files.</li>
+    <li>• Configured the S3 bucket to function as a static website, enabling website hosting capabilities.</li>
+    <li>• Utilized AWS IAM to manage access control for the S3 bucket and its contents.</li>
+    <li>• Configured a custom domain name for the website using AWS Route 53 DNS management.</li>
+    <li>• Implemented SSL/TLS certificate using AWS Certificate Manager (ACM) for secure HTTPS communication.</li>
+    <li>• Optimized website performance by enabling AWS CloudFront content delivery network (CDN) to cache and serve website content globally.</li>
+    <li>• Implemented website versioning and backups using AWS S3 versioning and lifecycle policies.</li>
+    <li>• Monitored website performance and availability using AWS CloudWatch metrics and alarms.</li>
+</ul>
+<p>Key Technologies and Tools:</p>
+<ul>
+    <li>• AWS Services: S3, IAM, Route 53, ACM, CloudFront, CloudWatch</li>
+    <li>• HTML, CSS, JavaScript for website development</li>
+</ul>
+<p>Outcome:</p>
+<p>• Successfully deployed a static website on AWS S3, utilizing various AWS services for reliable web hosting, secure communications, and improved performance.</p>
+
+
+            <!-- Add more project details here -->
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>BE Computer Science And Engineering</p>
+            <p>Hindusthan Institute of Technology</p>
+            <p>79%</p>
+            <p>2018 – 2022</p>
+            <!-- Add more education details here -->
+        </section>
+
+        <section id="personal-attributes">
+            <h2>Personal Attributes</h2>
+            <ul>
+                <li>• Effective Communicator</li>
+                <li>• Team Player</li>
+                <li>• Detail-Oriented</li>
+                <li>• Problem Solver</li>
+                <li>• Proactive and Resourceful</li>
+            </ul>
+        </section>
+    </div>
+
+   <footer>
+    <div class="footer-container">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:barathkumaranandhan@gmail.com"><i class="fas fa-envelope"></i> barathkumaranandhan@gmail.com</a></p>
+            <p>Phone: <a href="tel:7502255839"><i class="fas fa-phone"></i> 750-225-5839</a></p>
+        </div>
+        <div class="social-links">
+            <h3>Connect with Me</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/barath-kumar-275b34239" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://www.credly.com/users/barath-kumar-a" target="_blank"><i class="fas fa-award"></i> Credly</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
